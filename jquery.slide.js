@@ -18,7 +18,7 @@
     }
 
     $.fn.slide = function (conf) {
-        return new slide(this, conf);
+        return new slide(this, conf).setWidth();
     }
 
 
